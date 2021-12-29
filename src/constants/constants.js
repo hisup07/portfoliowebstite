@@ -41,6 +41,14 @@ export const projects = [
   },
 ];
 
+export const logos = {
+  android: '/images/android.png',
+  flutter: '/images/flutter.png',
+  react: '/images/react.png',
+  next: '/images/nextjs.png',
+  node: '/images/node.png',
+};
+
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey' },
   { year: 2020, text: 'Worked a freelance developer.' },

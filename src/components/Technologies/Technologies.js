@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiAndroid, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { logos } from '../../constants/constants';
 import {
   Section,
   SectionDivider,
@@ -14,42 +15,60 @@ import {
   ListTitle,
 } from './TechnologiesStyles';
 
+const logoStyle = {
+  height: '48px',
+  width: '48px',
+  marginBottom: '12px',
+};
+
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
     <SectionTitle style={{ marginTop: '16px' }}>Technologies</SectionTitle>
     <SectionText>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-      debitis et praesentium? Debitis, sapiente alias?
+      Cross platform mobile app development with react-native and FLutter.
+      front-end web development with React.js and next.js. backend development
+      with Node.js
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='3rem' />
+        <div style={{ display: 'flex' }}>
+          <img src={logos.android} style={logoStyle} />
+          <div style={{ width: '12px' }} />
+          <img src={logos.flutter} style={logoStyle} />
+        </div>
+
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Mobile Development</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React-native and Flutter.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <div style={{ display: 'flex' }}>
+          <img src={logos.react} style={logoStyle} />
+          <div style={{ width: '12px' }} />
+          <img src={logos.next} style={logoStyle} />
+        </div>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Front-End Development</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js and next.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <div style={{ display: 'flex' }}>
+          <img src={logos.node} style={logoStyle} />
+        </div>
+        <ListContainer>
+          <ListTitle>Back-End Development</ListTitle>
           <ListParagraph>
             Experience with <br />
             Node.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size='3rem' />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Figma Adobe
           </ListParagraph>
         </ListContainer>
       </ListItem>

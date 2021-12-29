@@ -59,7 +59,10 @@ const Header = () => (
       >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons target='_blank' href='https://insta.com'>
+      <SocialIcons
+        target='_blank'
+        href='https://m.facebook.com/100007614071055/'
+      >
         <AiFillFacebook size='3rem' />
       </SocialIcons>
     </Div3>
