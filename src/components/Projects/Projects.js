@@ -26,7 +26,7 @@ const getFormattedString = (string = '', length = 200) => {
 };
 
 const Projects = () => (
-  <Section id='projects'>
+  <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
