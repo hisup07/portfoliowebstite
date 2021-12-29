@@ -65,10 +65,12 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle style={{ marginTop: '16px' }}>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vitae,
-        illum animi ratione praesentium necessitatibus soluta inventore!
+        I am from calcutta,India. Working as full freelance developer who loves
+        building things that makes peoples life easier. Always interested in a
+        challenge. Reach out to hisupriyooo@gmail.com to connect!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
