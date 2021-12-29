@@ -27,7 +27,7 @@ const getFormattedString = (string = '', length = 200) => {
 };
 
 const Projects = () => (
-  <Section id='projects'>
+  <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle style={{ marginTop: '16px' }}>Projects</SectionTitle>
     <GridContainer>
@@ -59,6 +59,8 @@ const Projects = () => (
                 justifyContent: 'center',
                 marginTop: '12px',
                 marginBottom: '24px',
+                paddingLeft: '4rem',
+                paddingRight: '4rem',
               }}
             >
               <Button alt>
