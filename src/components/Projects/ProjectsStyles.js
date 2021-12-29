@@ -15,8 +15,7 @@ export const GridContainer = styled.section`
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 1rem;
-    padding-bottom: 0;
+    padding: 0;
   }
 `;
 export const BlogCard = styled.div`
