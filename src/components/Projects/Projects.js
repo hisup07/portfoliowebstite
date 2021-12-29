@@ -19,6 +19,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 const getFormattedString = (string = '', length = 200) => {
   if (string.length < length) return string;
@@ -47,10 +48,25 @@ const Projects = () => (
                 ))}
               </TagList>
             </div>
-            <UtilityList>
+            {/* <UtilityList>
               <ExternalLinks href={visit}>Code</ExternalLinks>
               <ExternalLinks href={source}>Source</ExternalLinks>
-            </UtilityList>
+            </UtilityList> */}
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                marginTop: '12px',
+                marginBottom: '24px',
+              }}
+            >
+              <Button alt>
+                <a href={source} target='_blank' style={{ color: 'white' }}>
+                  Visit
+                </a>
+              </Button>
+            </div>
           </BlogCard>
         )
       )}

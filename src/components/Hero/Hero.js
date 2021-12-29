@@ -12,20 +12,17 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello there!! <br />
-        Welcome To My Personal Portfolio.
+        Hello, i'm Supriyo Mondal <br />
+        I'm a software developer.
       </SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam
-        tempora consequuntur nam error distinctio sit sint explicabo temporibus!
-        Tempore.
+        I have serious passion for UI effects, animations and creating
+        intuitive, dynamic user experiences.
       </SectionText>
-      <Button
-        onClick={() => {
-          console.log('hello');
-        }}
-      >
-        Connect with me
+      <Button>
+        <a href='#footer' style={{ color: 'white' }}>
+          Connect with me
+        </a>
       </Button>
     </LeftSection>
   </Section>

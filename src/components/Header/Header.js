@@ -50,13 +50,16 @@ const Header = () => (
     </Div2>
     {/*  TODO : change links */}
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons target='_blank' href='https://github.com/supriyoMondal'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      <SocialIcons
+        target='_blank'
+        href='https://www.linkedin.com/in/supriyo-mondal-306944178/'
+      >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://insta.com'>
+      <SocialIcons target='_blank' href='https://insta.com'>
         <AiFillFacebook size='3rem' />
       </SocialIcons>
     </Div3>
