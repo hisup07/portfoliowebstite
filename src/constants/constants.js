@@ -57,7 +57,7 @@ export const TimeLineData = [
     text: 'Full time as a full stack developer in Neolen Technologies',
   },
   {
-    year: 2020,
+    year: 2022,
     text: 'Looking forward to complete my B.Tech in CS this year and do some freelance work along the way.',
   },
 ];

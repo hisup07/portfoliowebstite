@@ -20,7 +20,7 @@ const Hero = (props) => (
         intuitive, dynamic user experiences.
       </SectionText>
       <Button>
-        <a href='#footer' style={{ color: 'white' }}>
+        <a href='mailto:hisupriyooo@gmail.com' style={{ color: 'white' }}>
           Connect with me
         </a>
       </Button>

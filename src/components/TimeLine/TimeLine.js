@@ -68,7 +68,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle style={{ marginTop: '16px' }}>About Me</SectionTitle>
       <SectionText>
-        I am from calcutta,India. Working as full freelance developer who loves
+        I am from calcutta, India. Working as full freelance developer who loves
         building things that makes peoples life easier. Always interested in a
         challenge. Reach out to hisupriyooo@gmail.com to connect!
       </SectionText>
