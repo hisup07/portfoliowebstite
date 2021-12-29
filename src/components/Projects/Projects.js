@@ -27,9 +27,9 @@ const getFormattedString = (string = '', length = 200) => {
 };
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle style={{ marginTop: '16px' }}>Projects</SectionTitle>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
@@ -62,7 +62,7 @@ const Projects = () => (
               }}
             >
               <Button alt>
-                <a href={source} target='_blank' style={{ color: 'white' }}>
+                <a href={visit} target='_blank' style={{ color: 'white' }}>
                   Visit
                 </a>
               </Button>
