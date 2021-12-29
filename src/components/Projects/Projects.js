@@ -63,10 +63,13 @@ const Projects = () => (
                 paddingRight: '4rem',
               }}
             >
-              <Button alt>
-                <a href={visit} target='_blank' style={{ color: 'white' }}>
-                  Visit
-                </a>
+              <Button
+                alt
+                onClick={() => {
+                  window.open(visit, '_blank');
+                }}
+              >
+                Visit
               </Button>
             </div>
           </BlogCard>

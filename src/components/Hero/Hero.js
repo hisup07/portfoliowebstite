@@ -19,10 +19,13 @@ const Hero = (props) => (
         I have serious passion for UI effects, animations and creating
         intuitive, dynamic user experiences.
       </SectionText>
-      <Button>
-        <a href='mailto:hisupriyooo@gmail.com' style={{ color: 'white' }}>
-          Connect with me
-        </a>
+      <Button
+        onClick={(e) => {
+          window.location = 'mailto:hisupriyooo@gmail.com';
+          e.preventDefault();
+        }}
+      >
+        Connect with me
       </Button>
     </LeftSection>
   </Section>
