@@ -17,6 +17,7 @@ export const GridContainer = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0;
     padding-top: 1rem;
+    place-items: start;
   }
 `;
 export const BlogCard = styled.div`
