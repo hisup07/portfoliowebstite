@@ -1,23 +1,22 @@
 export const projects = [
   {
-    title: 'Rapid Nation Expert',
+    title: 'TrueSpeedy',
     description:
-      'Rapid Nation Expert is an online platform wherein the Service User and Service Professional can be brought together. We provide personal services like Beauty, Spa, mobile and other appliances repairs, Packers & Movers, Event Management, Artists Gallery, Caterers, Property Dealers, Photography, Well Boring, Cleaning Services, Car Rentals, Laundry Services, IT Solutions, Used Cars etc. ',
-    image: '/images/1.png',
-    tags: ['React-Native', 'nativebase'],
-    visit:
-      'https://play.google.com/store/apps/details?id=com.rapidnationexpert.www',
-    id: 0,
+      'TrueSpeedy is an e-com shopping app where you can buy hight quality product in affordable prices.',
+    image: '/images/10.png',
+    tags: ['react-native', 'react-native-elements'],
+    visit: 'https://play.google.com/store/apps/details?id=com.truespeedy',
+    id: 384456,
   },
   {
-    title: 'Trusted Predictions',
+    title: 'Bhuribhoj Vendor',
     description:
-      'Trusted Predictions provides Best Cricket Predictions in market with help of our excellent AI or machine learning algorithms. Get the fastest LIVE scores for cricket leagues like IPL (Indian Premier League), CPL (Caribbean Premier League), Big Bash League, PSL (Pakistan Super League), ICC World Cup and cricket teams like Sri Lanka, India, Australia, Ireland, Netherlands, West Indies, Australia, England, Pakistan, Zimbabwe, Bangladesh & more! ',
-    image: '/images/2.png',
-    tags: ['React-native', 'react-native-elements'],
+      'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
+    image: '/images/9.png',
+    tags: ['react-native', 'react-native-elements', 'firebase'],
     visit:
-      'https://play.google.com/store/apps/details?id=com.trustedpredictions',
-    id: 165448,
+      'https://play.google.com/store/apps/details?id=com.bhuribhojdeliverypartner',
+    id: 38455,
   },
   {
     title: 'LeanFITT™',
@@ -38,6 +37,37 @@ export const projects = [
     visit: 'https://play.google.com/store/apps/details?id=com.bizook',
     id: 654,
   },
+
+  {
+    title: 'Bhuribhoj',
+    description:
+      'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
+    image: '/images/7.png',
+    tags: ['react-native', 'react-native-elements', 'firebase'],
+    visit: 'https://play.google.com/store/apps/details?id=com.bhuribhoj',
+    id: 68443,
+  },
+  {
+    title: 'Trusted Predictions',
+    description:
+      'Trusted Predictions provides Best Cricket Predictions in market with help of our excellent AI or machine learning algorithms. Get the fastest LIVE scores for cricket leagues like IPL (Indian Premier League), CPL (Caribbean Premier League), Big Bash League, PSL (Pakistan Super League), ICC World Cup and cricket teams like Sri Lanka, India, Australia, Ireland, Netherlands, West Indies, Australia, England, Pakistan, Zimbabwe, Bangladesh & more! ',
+    image: '/images/2.png',
+    tags: ['React-native', 'react-native-elements'],
+    visit:
+      'https://play.google.com/store/apps/details?id=com.trustedpredictions',
+    id: 165448,
+  },
+  {
+    title: 'Bhuribhoj Delivery Partner',
+    description:
+      'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
+    image: '/images/8.png',
+    tags: ['react-native', 'react-native-elements', 'firebase'],
+    visit:
+      'https://play.google.com/store/apps/details?id=com.bhuribhojdeliverypartner',
+    id: 654658,
+  },
+
   {
     title: 'Agoo Express Driver',
     description: 'App for Agoo express Drivers',
@@ -57,38 +87,19 @@ export const projects = [
     id: 654654,
   },
   {
-    title: 'Bhuribhoj',
+    title: 'Rapid Nation Expert',
     description:
-      'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
-    image: '/images/7.png',
-    tags: ['react-native', 'react-native-elements', 'firebase'],
-    visit: 'https://play.google.com/store/apps/details?id=com.bhuribhoj',
-    id: 68443,
-  },
-  {
-    title: 'Bhuribhoj Delivery Partner',
-    description:
-      'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
-    image: '/images/8.png',
-    tags: ['react-native', 'react-native-elements', 'firebase'],
+      'Rapid Nation Expert is an online platform wherein the Service User and Service Professional can be brought together. We provide personal services like Beauty, Spa, mobile and other appliances repairs, Packers & Movers, Event Management, Artists Gallery, Caterers, Property Dealers, Photography, Well Boring, Cleaning Services, Car Rentals, Laundry Services, IT Solutions, Used Cars etc. ',
+    image: '/images/1.png',
+    tags: ['React-Native', 'nativebase'],
     visit:
-      'https://play.google.com/store/apps/details?id=com.bhuribhojdeliverypartner',
-    id: 654658,
+      'https://play.google.com/store/apps/details?id=com.rapidnationexpert.www',
+    id: 0,
   },
-  // {
-  //   title: 'Bhuribhoj Vendor',
-  //   description:
-  //     'Now a day we are lucky enough to be breathing in an era when anything can be delivered at your doorways without going out to purchase it. Food is no exclusion. Discussing food isn’t about pizza anymore. The internet has built large development to facilitate cool new things. Now with tip clicks, you can get whatever your hungry tummy desires.',
-  //   image: '/images/9.png',
-  //   tags: ['react-native', 'react-native-elements', 'firebase'],
-  //   visit:
-  //     'https://play.google.com/store/apps/details?id=com.bhuribhojdeliverypartner',
-  //   id: 38455,
-  // },
 ];
 
 export const logos = {
-  android: '/images/android.png',
+  android: '/images/android.svg',
   flutter: '/images/flutter.png',
   react: '/images/react.png',
   next: '/images/nextjs.png',
